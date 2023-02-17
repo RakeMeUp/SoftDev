@@ -1,7 +1,5 @@
-## SoftDev
-
+# SoftDev
 ### TODO
-
 java maven (later gradle)
 
 set git configs
