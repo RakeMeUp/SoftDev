@@ -2,6 +2,8 @@ package geolocator;
 
 public class Main {
 
+    // just a comment
+
     public static void main(String[] args) {
         if (args.length > 1) {
             System.err.printf("Usage: java %s [ipOrHostName]%n", Main.class.getName());
