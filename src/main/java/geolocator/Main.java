@@ -10,7 +10,9 @@ public class Main {
             System.exit(1);
         }
         GeoLocator geoLocator = GeoLocator.newInstance();
-        GeoLocation geoLocation = args.length == 0 ? geoLocator.getGeoLocation() : geoLocator.getGeoLocation(args[0]);
+        GeoLocation geoLocation = args.length == 0
+                ? geoLocator.getGeoLocation()
+                : geoLocator.getGeoLocation(args[0]);
         System.out.println(geoLocation);
     }
 
