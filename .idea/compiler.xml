@@ -10,5 +10,8 @@
         <module name="ip-geolocator" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SoftDev" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
