@@ -1,5 +1,9 @@
 # Software Engineering Class
 
+## Stack
+
+`Java` / `Maven`
+
 ## Branch System
 
 - `main` acts as a Production branch, periodically updated from `dev` branch
