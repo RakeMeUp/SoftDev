@@ -1,15 +1,7 @@
-# SoftDev
-### TODO
-java maven (later gradle)
+# Software Engineering Class
 
-set git configs
+## Branch System
 
-in pom.xml set id,name,email
-
-make gitignoroe with gitignore.io (maven, idea, ...)
-
-uncomment dependencies
-
-branch for dev (lombok)
-
-lombok in maven, use it to replace functions with lombok.Data annotation
+- `main` acts as a Production branch, periodically updated from `dev` branch
+- `dev` is a parallel branh to `main` where features get worked on
+- ***`Feature Off-Branches`*** for every feature we work on, we make a small branch for it from `dev`
